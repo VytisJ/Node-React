@@ -1,0 +1,15 @@
+.card {
+  width: 400px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  padding: 1rem;
+}
+
+.card p {
+  padding: 0 1rem 1rem 1rem;
+}
