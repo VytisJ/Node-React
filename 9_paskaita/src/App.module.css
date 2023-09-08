@@ -1,0 +1,15 @@
+.card {
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: blueviolet;
+}
+
+.test {
+  background-color: blue;
+  color: white;
+}
+
+.testItem {
+  color: red;
+}
