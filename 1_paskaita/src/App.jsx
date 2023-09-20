@@ -1,10 +1,10 @@
 const App = () => {
-// returne turi buti jsx
-// java script + HTML
+  // returne turi buti JSX
+  // JSX - Javascript + HTML
   return (
-  <div className="red">
-    <h1>Hello world</h1>
-  </div>
+    <div className="red">
+      <h1>Hello world</h1>
+    </div>
   );
 };
 

@@ -8,6 +8,29 @@ const Home = () => {
   const events = JSON.parse(localStorage.getItem("event")) || [];
   const navigate = useNavigate();
 
+  [
+    {
+      id: 346,
+      name: "Rapis",
+      dob: 1591315200000,
+      client_email: "rap@gmail.com",
+      archived: 0,
+    },
+    {
+      id: 364,
+      name: "Lucky",
+      dob: 1252454400000,
+      client_email: "notsomuch@gmail.com",
+      archived: 0,
+    },
+    {
+      id: 382,
+      name: "Loki",
+      dob: 1689033600000,
+      client_email: "pavargau@nesuprantu.com",
+      archived: 0,
+    },
+  ];
   return (
     <div>
       <div className="event-top-container">
