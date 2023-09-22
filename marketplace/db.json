@@ -35,6 +35,12 @@
       "id": 1695049797854,
       "email": "test@gmail.com",
       "password": "testtest"
+    },
+    {
+      "email": "info@interfinance.net",
+      "password": "Vytis2121",
+      "repeatedPassword": "Vytis2121",
+      "id": 1695049797855
     }
   ]
 }
