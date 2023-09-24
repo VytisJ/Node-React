@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import styled from "styled-components";
 
 // {
 //     "id": 1,
@@ -9,15 +10,29 @@ import PropTypes from "prop-types";
 //     "userId": 1694710338964
 //   },
 
+const Container = styled.div`
+  height: 100px;
+  display: flex;
+  gap: 1rem;
+`;
+
+const Image = styled.img`
+  height: 100%;
+  width: 120px;
+  object-fit: fill;
+`;
+
 const Ad = ({ ad }) => {
   const { title, description, image_url, price } = ad;
   return (
-    <div>
-      <img src={image_url} alt={title} />
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <Container>
+      <Image src={image_url} alt={title} />
+      <div>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
       <p>{price}</p>
-    </div>
+    </Container>
   );
 };
 
