@@ -70,6 +70,11 @@
 
 }
 
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
 h4{
   margin: 0;
   font-size: 0.8rem;
@@ -93,9 +98,11 @@ h4{
   border-color: rgb(221, 127, 143);
   padding:8px;
   height:5px; 
-  width: 170px auto;
+  max-width: 390px auto;
 }
 
 .pasField:hover {
-  background-color: rgb(221, 127, 143);
+  background-color: light;
 }
+
+
